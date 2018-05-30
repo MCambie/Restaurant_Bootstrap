@@ -12,13 +12,14 @@
   padding-top: 20px;
   background-color: #f1f1f1;
   height: 100%;
+
 }
 
 /* Set black background color, white text and some padding */
 footer {
   background-color: #555;
   color: white;
-  padding: 15px;
+  padding-top: 15px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -31,8 +32,12 @@ footer {
 }
 
 .logo{
-  height: 250px;
-  width: auto;
+  width:250px;
+  height: auto;
+}
+.home_jumbo{
+  background-image: url("../img/bowl.jpg");
+  background-size: cover;
 }
 
 .content_header{
@@ -72,7 +77,9 @@ footer {
 .social{
   height: 30px;
   width: auto;
+
 }
+
 .panel{
   background-color: #F1F1F1;
   height: auto;
@@ -113,7 +120,10 @@ footer {
 .btn{
   width:70px;
 }
-.galery_panel{
-  height: 200px;
-  width: 100px;
+.gallery{
+  width: 200px;
+  height: auto;
+}
+.gallery_panel{
+  padding: 0px;
 }

@@ -1,129 +1,149 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
+
 .navbar {
-  margin-bottom: 0;
-  border-radius: 0;
+	margin-bottom: 0;
+	border-radius: 0;
 }
+
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 900px;}
+
+.row.content {
+	height: 900px;
+}
+
 
 /* Set gray background color and 100% height */
-.sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
 
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
 }
+
 
 /* Set black background color, white text and some padding */
+
 footer {
-  background-color: #555;
-  color: white;
-  padding-top: 15px;
+	background-color: #555;
+	color: white;
+	padding-top: 15px;
 }
+
 
 /* On small screens, set height to 'auto' for sidenav and grid */
+
 @media screen and (max-width: 767px) {
-  .sidenav {
-    height: 100%;
-    padding: 15px;
-  }
-  .row.content {height:auto;}
+	.sidenav {
+		height: 100%;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
 }
 
-.logo{
-  width:250px;
-  height: auto;
-}
-.home_jumbo{
-  background-image: url("../img/bowl.jpg");
-  background-size: cover;
+.logo {
+	width: 250px;
+	height: auto;
 }
 
-.content_header{
-  padding-top: 30px;
-  padding-bottom: 20px;
-
-}
-.maps{
-
-  border-radius: 10px;
-  text-align: center;
-
-
+.home_jumbo {
+	background-image: url("../img/bowl.jpg");
+	background-size: cover;
 }
 
-.form-group{
-  text-align: left;
+.content_header {
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
+
+.maps {
+	border-radius: 10px;
+	text-align: center;
+}
+
+.form-group {
+	text-align: left;
+}
+
+
 /* .logo_white{
   height: 30px;
   width: auto;
   padding: 0px;
   margin: 0px;
 } */
-.jumbotron{
-  padding-top: 20px;
-  padding-bottom: 0px;
+
+.jumbotron {
+	padding-top: 20px;
+	padding-bottom: 0px;
 }
 
-.uber{
-  margin-top: 70px;
-}
-.link{
-  margin-top: 50px;
-
-}
-.social{
-  height: 30px;
-  width: auto;
-
+.uber {
+	margin-top: 70px;
 }
 
-.panel{
-  background-color: #F1F1F1;
-  height: auto;
+.link {
+	margin-top: 50px;
+}
 
+.social {
+	height: 30px;
+	width: auto;
 }
-.panel-body{
 
+.panel {
+	background-color: #F1F1F1;
+	height: auto;
 }
-.event{
-  background-image: url("../img/bowl2.jpg");
-  background-size: cover;
-  color: white;
-  text-shadow: 2px 2px 2px black;
-  padding-top: 100px;
-  padding-bottom: 100px;
+
+.panel-body {}
+
+.event {
+	background-image: url("../img/bowl2.jpg");
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
-.news{
-  background-image: url("../img/28238647_2128331757241565_5420294751257590499_o.jpg");
-  background-size: cover;
-  color: white;
-  text-shadow: 2px 2px 2px black;
-  padding-top: 100px;
-  padding-bottom: 100px;
+
+.news {
+	background-image: url("../img/28238647_2128331757241565_5420294751257590499_o.jpg");
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
-.list-group{
-  padding-top: 70px;
+
+.list-group {
+	padding-top: 70px;
 }
-.badge_icon{
-  height: 15px;
-  width: auto;
+
+.badge_icon {
+	height: 15px;
+	width: auto;
 }
-.list-group-item{
-  text-align: left;
+
+.list-group-item {
+	text-align: left;
 }
-.hours{
-  text-align: left;
+
+.hours {
+	text-align: left;
 }
-.btn{
-  width:70px;
+
+.btn {
+	width: 70px;
 }
-.gallery{
-  width: 200px;
-  height: auto;
+
+.gallery {
+	width: 200px;
+	height: auto;
 }
-.gallery_panel{
-  padding: 0px;
+
+.gallery_panel {
+	padding: 0px;
 }

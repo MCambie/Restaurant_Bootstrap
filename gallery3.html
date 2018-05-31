@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<main>
 <head>
   <title>Noodle</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8" theme-color="black"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="Assets/CSS/style.css" />
 
 </head>
@@ -14,7 +15,7 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" name="roll-menu">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -22,24 +23,26 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="home.html">Home</a></li>
-          <li class="active"><a href="menu.html">Menu</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="restaurants.html">Restaurants</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="home.html" name="home">Home</a></li>
+          <li><a href="menu.html" name="menu">Menu</a></li>
+          <li class="active"><a href="gallery.html" name="gallery">Gallery</a></li>
+          <li><a href="restaurants.html" name="restaurants">Restaurants</a></li>
+          <li><a href="contact.html" name="contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-<!-- SIDEBAR LEFT -->
+
+  <!-- SIDEBAR-left -->
 <div class="container-fluid text-center">
   <div class="row content">
     <div class="col-sm-2 sidenav">
-      <p class="uber"><a href="https://www.ubereats.com/stores/" target="_blank"><img src="Assets/icons/uber.png" class="social"/></a></p>
-      <p class="link"><a href="https://deliveroo.be/fr/" target="_blank"><img src="Assets/icons/Deliveroo_logo.svg" class="social"/></a></p>
-      <p class="link"><a href="https://www.facebook.com/davidhasselhoff/" target="_blank" ><img src="Assets/icons/facebook.svg" class="social"/></a></p>
-      <p class="link"><a href="https://www.instagram.com/patrickswayzefanpage/?hl=fr" target="_blank" ><img src="Assets/icons/instagram.svg" class="social"/></a></p>
+      <p class="uber"><a href="https://www.ubereats.com/stores/" target="_blank"  rel="noopener" name="ubereats"><img src="Assets/icons/uber.png" class="social" alt="ubereats"/></a></p>
+      <p class="link"><a href="https://deliveroo.be/fr/" target="_blank"  rel="noopener" name="deliveroo"><img src="Assets/icons/Deliveroo_logo.svg" class="social" alt="deliveroo"/></a></p>
+      <p class="link"><a href="https://www.facebook.com/davidhasselhoff/" target="_blank"  rel="noopener" name="facebook" ><img src="Assets/icons/facebook.svg" class="social" alt="facebook"/></a></p>
+      <p class="link"><a href="https://www.instagram.com/patrickswayzefanpage/?hl=fr" target="_blank"  rel="noopener" name="instagram" ><img src="Assets/icons/instagram.svg" class="social" alt="instagram"/></a></p>
     </div>
+
     <!-- CONTENT -->
     <div class="col-sm-8">
       <div class="jumbotron">
@@ -49,21 +52,21 @@
       </div>
 
       <div class="gallery_panel panel panel-default col-sm-4">
-        <img src="Assets/img/shrimp.jpg" class="gallery "/>
+        <img src="Assets/img/shrimp.jpg" class="gallery " alt="shrimp"/>
       </div>
 
       <div class="gallery_panel panel panel-default col-sm-4">
-        <img src="Assets/img/ingredients.jpg" class="gallery "/>
+        <img src="Assets/img/ingredients.jpg" class="gallery " alt="ingredients"/>
       </div>
 
       <div class="gallery_panel panel panel-default col-sm-4">
-        <img src="Assets/img/sides.jpg" class="gallery "/>
+        <img src="Assets/img/sides.jpg" class="gallery " alt="sides"/>
       </div>
       <ul class="pagination">
-        <li><a href="gallery.html">1</a></li>
-        <li><a href="gallery2.html">2</a></li>
-        <li><a href="gallery3.html">3</a></li>
-        <li><a href="gallery4.html">4</a></li>
+        <li><a href="gallery.html" name="gallery">1</a></li>
+        <li><a href="gallery2.html" name="gallery2">2</a></li>
+        <li><a href="gallery3.html" name="gallery3">3</a></li>
+        <li><a href="gallery4.html" name="gallery4">4</a></li>
       </ul>
     </div>
     <!-- SIDEBAR RIGHT -->
@@ -78,4 +81,5 @@
 </footer>
 
 </body>
+</main>
 </html>

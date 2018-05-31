@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<main>
 <head>
   <title>Noodle</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8" theme-color="black"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="Assets/CSS/style.css" />
 
 </head>
@@ -14,7 +15,7 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" name="roll-menu">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -22,25 +23,27 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="home.html">Home</a></li>
-          <li class="active"><a href="menu.html">Menu</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="restaurants.html">Restaurants</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="home.html" name="home">Home</a></li>
+          <li><a href="menu.html" name="menu">Menu</a></li>
+          <li><a href="gallery.html" name="gallery">Gallery</a></li>
+          <li><a href="restaurants.html" name="restaurants">Restaurants</a></li>
+          <li class="active"><a href="contact.html" name="contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-<!-- SIDEBAR LEFT -->
+  <!-- SIDEBAR-left -->
 <div class="container-fluid text-center">
   <div class="row content">
     <div class="col-sm-2 sidenav">
-      <p class="uber"><a href="https://www.ubereats.com/stores/" target="_blank"><img src="Assets/icons/uber.png" class="social"/></a></p>
-      <p class="link"><a href="https://deliveroo.be/fr/" target="_blank"><img src="Assets/icons/Deliveroo_logo.svg" class="social"/></a></p>
-      <p class="link"><a href="https://www.facebook.com/davidhasselhoff/" target="_blank" ><img src="Assets/icons/facebook.svg" class="social"/></a></p>
-      <p class="link"><a href="https://www.instagram.com/patrickswayzefanpage/?hl=fr" target="_blank" ><img src="Assets/icons/instagram.svg" class="social"/></a></p>
+      <p class="uber"><a href="https://www.ubereats.com/stores/" target="_blank"  rel="noopener" name="ubereats"><img src="Assets/icons/uber.png" class="social" alt="ubereats"/></a></p>
+      <p class="link"><a href="https://deliveroo.be/fr/" target="_blank"  rel="noopener" name="deliveroo"><img src="Assets/icons/Deliveroo_logo.svg" class="social" alt="deliveroo"/></a></p>
+      <p class="link"><a href="https://www.facebook.com/davidhasselhoff/" target="_blank"  rel="noopener" name="facebook" ><img src="Assets/icons/facebook.svg" class="social" alt="facebook"/></a></p>
+      <p class="link"><a href="https://www.instagram.com/patrickswayzefanpage/?hl=fr" target="_blank"  rel="noopener" name="instagram" ><img src="Assets/icons/instagram.svg" class="social" alt="instagram"/></a></p>
     </div>
+>
+
     <!-- CONTENT -->
     <div class="col-sm-8">
       <div class="jumbotron">
@@ -51,19 +54,19 @@
       <form action="/action_page.php">
         <div class="form-group">
           <label for="Firstname">Firstname:</label>
-          <input type="name" class="form-control" id="Firstname">
+          <input type="name" class="form-control" id="Firstname" name="firstname">
         </div>
         <div class="form-group">
           <label for="Lastname">Lastname:</label>
-          <input type="name" class="form-control" id="Lastname">
+          <input type="name" class="form-control" id="Lastname" name="lastname">
         </div>
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email">
+          <input type="email" class="form-control" id="email" name="email">
         </div>
         <div class="form-group">
           <label for="select">Why do you contact us?</label>
-          <select id="monselect" class="form-control">
+          <select id="monselect" class="form-control" name="pourquoi">
             <option value="valeur1" selected>I have a compliment</option>
             <option value="valeur2" >I have a suggestion</option>
             <option value="valeur3">I have a comment</option>
@@ -74,7 +77,7 @@
             <textarea id="message" name="message" class="form-control"></textarea><span class="label label-warning">English or French only</span>
           </div>
         </div>
-        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-send"></span></button>
+        <button type="submit" class="btn btn-default" name="send"><span class="glyphicon glyphicon-send"></span></button>
       </form>
     </div>
     <!-- SIDEBAR RIGHT -->
@@ -89,4 +92,5 @@
 </footer>
 
 </body>
+</main>
 </html>

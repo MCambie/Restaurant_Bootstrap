@@ -5,7 +5,7 @@
 - **Quand ?** :  Prairie - BeCode (~ mai 2018)
 - **Par ?** : 
 - [Marie Cambie](https://github.com/MCambie) 
-- **Le site** : 
+- **Le site** :  https://mcambie.github.io/Restaurant_Bootstrap/
 
 ## Demande client : 
 Le site est un site vitrine d'une franchise de restaurants. La franchise est fictive mais le type de nourriture (burger, pizza, asiatique,...) est laissé au choix de l’apprenant.

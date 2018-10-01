@@ -4,7 +4,7 @@
 - **Où ?** : [Becode](https://github.com/becodeorg/)
 - **Quand ?** :  Prairie - BeCode (~ mai 2018)
 - **Par ?** : 
-- [Marie Cambie](https://github.com/MCambie) 
+    - [Marie Cambie](https://github.com/MCambie) 
 - **Le site** :  https://mcambie.github.io/Restaurant_Bootstrap/
 
 ## Demande client : 
@@ -14,6 +14,9 @@ Minimum 5 pages accessibles par une barre de navigation (navbar) présente sur t
 
 ## Briefing complet : 
 Pour le consulter,cliquez [ici](https://github.com/becodeorg/Johnson2/tree/master/projets/Restaurant_Bootstrap)
+
+## Objectif : 
+Se familiariser avec la librairie front-end BootStrap.
 
 ## Captures d'écrans du projet  :
 ![acceuil]()

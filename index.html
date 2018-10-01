@@ -1,81 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 
-      <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
-        <link rel="manifest" href="./manifest.json" />
-         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-         <meta charset="utf-8"/>
-         <meta name="description" content="restaurant de nouille" />
-         <meta name="theme-color" content="#FFFFFF" />
-         <title>Noodle</title>
-      </head>
-      <body>
-        <main>
-         <!-- Navbar -->
-         <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-               <div class="navbar-header">
-                  <button type="roll-menu" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" name="roll-menu">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="shortcut icon" type="image/png" href="Assets/img/icon-192.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="description" content="restaurant de nouille" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <title>Noodle</title>
+</head>
+
+<body>
+  <main>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="roll-menu" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" name="roll-menu">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-               </div>
-               <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav">
-                     <li class="active"><a href="home.html" name="home">Home</a></li>
-                     <li><a href="menu.html" name="menu">Menu</a></li>
-                     <li><a href="gallery.html" name="gallery">Gallery</a></li>
-                     <li><a href="restaurants.html" name="restaurants">Restaurants</a></li>
-                     <li><a href="contact.html" name="contact">Contact</a></li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-         <!-- SIDEBAR-left -->
-         <div class="container-fluid text-center">
-            <div class="row content">
-               <div class="col-sm-2 sidenav">
-                  <p class="uber"><a href="https://www.ubereats.com/stores/" target="_blank"  rel="noopener" name="ubereats"><img src="Assets/icons/uber.png" class="social" alt="ubereats"/></a></p>
-                  <p class="link"><a href="https://deliveroo.be/fr/" target="_blank"  rel="noopener" name="deliveroo"><img src="Assets/icons/Deliveroo_logo.svg" class="social" alt="deliveroo"/></a></p>
-                  <p class="link"><a href="https://www.facebook.com/davidhasselhoff/" target="_blank"  rel="noopener" name="facebook" ><img src="Assets/icons/facebook.svg" class="social" alt="facebook"/></a></p>
-                  <p class="link"><a href="https://www.instagram.com/patrickswayzefanpage/?hl=fr" target="_blank"  rel="noopener" name="instagram" ><img src="Assets/icons/instagram.svg" class="social" alt="instagram"/></a></p>
-               </div>
-               <!-- content -->
-               <div class="col-sm-8">
-                  <div class="home_jumbo jumbotron">
-                     <a  href="home.html" name="home"><img src="Assets/img/logo.png" class="logo" alt="logo"/></a>
-                  </div>
-                  <p>Essentially Noodle is a Japanese noodle bar. Our main focus is on ramen noodles, delicious firm wheat based noodles served in a tasty broth. Please do not expect a menu with 100 items at our restaurants, we prefer to focus on one thing and doing it well.
-                     At Noodle you will find traditional Japanese flavours with a local twist. Savouriness, taste, flavour, that is our philosophy, our religion, our way of living. We try to source the best Japanese and local products to produce the most nutrient, healthiest, but above all the tastiest ramen possible. For instance, our meat and bones come from farmers in the Belgian Ardennes, where pigs can stroll around freely (because hey: Happy pigs make delicious bacon)! Our broths are slow cooked to take up all natural flavors and nutrients.
-                     Preparing the broth takes between 24 and 48 hours of slow cooking which gives it intense flavor, richness and depth; tasty ramen noodles with a chewy texture give flair to your soup, and the lovely toppings such as crunchy vegetables and a couple of slices of slow cooked pork belly will bring you to noodle heaven. The yolky egg is the cherry on the cake, so to speak. Noodle is slow (cooked) food, served fast.
-                     So yes, taste is what it is all about at Noodle, cooking with beautiful products, served with integrity and loads of TLC, Tender Loving Cooking, obviously ;-)
-                  </p>
-                  <div class="news panel panel-default col-sm-5">
-                     <div class="panel-body">Unfortunatelly we will be closed on Monday 3rd June.</div>
-                  </div>
-                  <div class="col-sm-2">
-                  </div>
-                  <div class="event panel panel-default col-sm-5">
-                     <div class="panel-body">BIG OPENING </br>Check our <a href="https://www.facebook.com/events/728097023972029/" target="_blank" name="event" rel="noopener"> Facebook</a> event</div>
-                  </div>
-               </div>
-               <div class="col-sm-2 sidenav">
-               </div>
-            </div>
-         </div>
-         <!-- footer  -->
-         <footer class="container-fluid text-center">
-            <p>	&#9400;2018 Marie</p>
-         </footer>
-       </main>
-       <script src="./app.js"></script>
-       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html" name="home">Home</a></li>
+            <li><a href="menu.html" name="menu">Menu</a></li>
+            <li><a href="gallery.html" name="gallery">Gallery</a></li>
+            <li><a href="restaurants.html" name="restaurants">Restaurants</a></li>
+            <li><a href="contact.html" name="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- SIDEBAR-left -->
+    <div class="container-fluid text-center">
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+          <p class="uber"><a href="https://www.ubereats.com/stores/" target="_blank" rel="noopener"><img src="Assets/icons/uber.png" class="social" alt="ubereats"/></a></p>
+          <p class="link"><a href="https://deliveroo.be/fr/" target="_blank" rel="noopener"><img src="Assets/icons/Deliveroo_logo.svg" class="social" alt="deliveroo"/></a></p>
+          <p class="link"><a href="https://www.facebook.com/davidhasselhoff/" target="_blank" rel="noopener"><img src="Assets/icons/facebook.svg" class="social" alt="facebook"/></a></p>
+          <p class="link"><a href="https://www.instagram.com/patrickswayzefanpage/?hl=fr" target="_blank" rel="noopener"><img src="Assets/icons/instagram.svg" class="social" alt="instagram"/></a></p>
+        </div>
+        <!-- content -->
+        <div class="col-sm-8">
+          <div class="home_jumbo jumbotron">
+            <a href="home.html" name="home"><img src="Assets/img/logo.png" class="logo" alt="logo"/></a>
+          </div>
+          <p>Essentially Noodle is a Japanese noodle bar. Our main focus is on ramen noodles, delicious firm wheat based noodles served in a tasty broth. Please do not expect a menu with 100 items at our restaurants, we prefer to focus on one thing and doing
+            it well. At Noodle you will find traditional Japanese flavours with a local twist. Savouriness, taste, flavour, that is our philosophy, our religion, our way of living. We try to source the best Japanese and local products to produce the most
+            nutrient, healthiest, but above all the tastiest ramen possible. For instance, our meat and bones come from farmers in the Belgian Ardennes, where pigs can stroll around freely (because hey: Happy pigs make delicious bacon)! Our broths are
+            slow cooked to take up all natural flavors and nutrients. Preparing the broth takes between 24 and 48 hours of slow cooking which gives it intense flavor, richness and depth; tasty ramen noodles with a chewy texture give flair to your soup,
+            and the lovely toppings such as crunchy vegetables and a couple of slices of slow cooked pork belly will bring you to noodle heaven. The yolky egg is the cherry on the cake, so to speak. Noodle is slow (cooked) food, served fast. So yes, taste
+            is what it is all about at Noodle, cooking with beautiful products, served with integrity and loads of TLC, Tender Loving Cooking, obviously ;-)
+          </p>
+          <div class="news panel panel-default col-sm-5">
+            <div class="panel-body">Unfortunatelly we will be closed on Monday 3rd June.</div>
+          </div>
+          <div class="col-sm-2">
+          </div>
+          <div class="event panel panel-default col-sm-5">
+            <div class="panel-body">BIG OPENING </br>Check our <a href="https://www.facebook.com/events/728097023972029/" target="_blank" name="event" rel="noopener"> Facebook</a> event</div>
+          </div>
+        </div>
+        <div class="col-sm-2 sidenav">
+        </div>
+      </div>
+    </div>
+    <!-- footer  -->
+    <footer class="container-fluid text-center">
+      <p> &#9400;2018 Marie</p>
+    </footer>
+  </main>
+  <script src="./app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-      </body>
+</body>
 
 </html>

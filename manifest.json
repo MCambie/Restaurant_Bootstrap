@@ -6,7 +6,7 @@
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "Assets/img/icon.jpg",
+      "src": "Assets/img/icon-512.jpg",
       "sizes": "512x512",
       "type": "image/jpg"
     }],
